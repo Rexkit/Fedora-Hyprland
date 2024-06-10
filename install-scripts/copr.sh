@@ -9,7 +9,6 @@
 # List of COPR repositories to be added and enabled
 COPR_REPOS=(
 solopasha/hyprland
-erikreider/SwayNotificationCenter  
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##

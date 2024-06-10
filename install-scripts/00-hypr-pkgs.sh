@@ -21,7 +21,7 @@ hypr_package=(
   ImageMagick
   jq
   inxi
-  kitty
+  alacritty
   kvantum
   nano
   network-manager-applet
@@ -41,7 +41,7 @@ hypr_package=(
   rofi-wayland
   slurp
   swappy
-  SwayNotificationCenter
+  mako
   waybar
   wget2
   wl-clipboard
@@ -68,19 +68,18 @@ hypr_package_2=(
 )
 
 copr_packages=(
-  aylurs-gtk-shell
   cliphist
   hypridle
   hyprlock
   pamixer
-  pyprland
   swww
+  wlogout
 )
 
 # List of packages to uninstall as it conflicts with swaync or causing swaync to not function properly
 uninstall=(
   dunst
-  mako
+  SwayNotificationCenter
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
